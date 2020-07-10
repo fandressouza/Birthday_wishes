@@ -71,11 +71,8 @@ function dance(target) {
 
 function birthdayCardImage() {
 
-    // clean the DOM first
-    document.getElementById("party").innerHTML = "";
-
     // Then insert the image
-    document.getElementById("party").innerHTML = '<img src="https://i.pinimg.com/736x/ee/f0/36/eef036f583e91a438896a377716ea85e.jpg" alt="birthday image">'
+    document.getElementById("bday_image").innerHTML = '<img src="https://i.pinimg.com/736x/ee/f0/36/eef036f583e91a438896a377716ea85e.jpg" alt="birthday image">'
 
 
 }

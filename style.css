@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
+
+body {
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: "Short Stack";
+}
+
+.main-header{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 2.5em;
+}
+
+#start {
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    border: 3px solid rgb(231, 231, 231);
+    background-color: rgb(52, 183, 226);
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family: "Short Stack";
+}
+
+#start:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-box-shadow: 0px 6px 5px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 6px 5px -1px rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 6px 5px -1px rgba(0, 0, 0, 0.39);
+    transition: transform 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s,
+        -moz-box-shadow 0.3s;
+}
+
+.ml6 {
+    position: relative;
+    font-size: 3.3em;
+    animation: color-change 6s infinite;
+}
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.name-field {
+    width: 100%;
+    height: 1.5em;
+    display:block;
+    text-align: center;
+    margin: 30px auto;
+    font-family: "Short Stack";
+    font-size: 1.2em;
+}
+
+@keyframes color-change {
+    0% {
+        color: #d9534f;
+    }
+    20% {
+        color: #f9f9f9;
+    }
+    40% {
+        color: #133337;
+    }
+    60% {
+        color: #5ac18e;
+    }
+    80% {
+        color: #faebd7;
+    }
+    100% {
+        color: #fbac76;
+    }
+}

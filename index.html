@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Happy Birthday</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <button 
+                id="start" 
+                aria-label="Button that starts the party application">
+                Start the Party!
+            </button>
+            <input 
+                class="name-field" 
+                type="text" id="name" 
+                placeholder="Enter your name" 
+                aria-label="Input field for user's name" />
+        </header>
+        
+        <!-- Content will be injected in the div below -->
+        <div id="party"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="birthday.js"></script>
+        <script src="jquery.fireworks.js"></script>
+    </body>
+</html>
